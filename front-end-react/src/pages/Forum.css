@@ -1,0 +1,74 @@
+.Forum {
+    margin: 30px 20%;
+}
+
+.Forum h2{
+    text-align: center;
+}
+
+.Forum textarea {
+    width: 60%;
+    height: 200px;
+    margin:20px 20%;
+}
+
+#post {
+    text-align: right;
+    margin-right: 20%;
+}
+
+.rate {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #f5c000;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+
+.post-content {
+    border: 2px ridge;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.re-text {
+    margin-left: 15px;
+}
+
+.modify {
+    display: flex;
+    justify-content: space-between;
+}
+

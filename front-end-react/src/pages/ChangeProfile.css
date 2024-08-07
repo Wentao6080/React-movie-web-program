@@ -1,0 +1,19 @@
+.Change {
+    border: 4px outset;
+    border-radius: 7px;
+    margin: 40px 30%;
+    min-height: 10cm;
+
+
+}
+
+.Content1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tips {
+    text-align: right;
+    color: brown;
+
+}

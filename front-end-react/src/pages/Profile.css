@@ -1,0 +1,144 @@
+.Profile {
+    border: 4px outset;
+    border-radius: 7px;
+    margin: 40px 30%;
+    min-height: 15cm;
+
+
+}
+
+.Content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Profile h2 {
+    color: red;
+    font-size: 2em;
+}
+
+.material-icons {
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.Edit {
+    display: flex;
+
+}
+
+.Edit .material-icons {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+
+.Information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Left-infor {
+    display: flex;
+}
+
+.Name_Email {
+    margin-left: 20px;
+
+}
+
+.Username {
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.Email {
+    margin-top: 5px;
+    font-size: small;
+    color: gray;
+}
+
+#delete {
+    color: rgb(190, 0, 89);
+}
+
+#edit {
+    color: rgb(4, 4, 102);
+}
+
+/* The Modal (background) */
+.model {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 200px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.model-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding:0 20px 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    
+}
+
+.model-content p{
+    color: #888;
+    margin-top: 0px;
+}
+
+
+.Edit button {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.Edit button:hover {
+    text-decoration: underline;
+}
+
+.Edit button:active {
+    background-color: rgb(240, 239, 243);
+}
+
+
+#Cancel {
+    color: rgb(7, 110, 228);
+    font-size: large;
+}
+
+#Confirm {
+    color: red;
+    font-size: large;
+    margin-left: 20px ;
+    margin-right: 10px;
+}
+
+.delet-butt {
+    text-align: right;
+}

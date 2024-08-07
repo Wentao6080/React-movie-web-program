@@ -1,0 +1,24 @@
+
+
+.Footer {
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 20px;
+
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Student {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.Image {
+    margin-right: 100px;
+}
+.NA {
+    margin-left: 15px;
+}

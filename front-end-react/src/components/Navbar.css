@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:dodgerblue;
+    padding: 10px;
+}
+
+a{
+    font-size: 1.5em;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
